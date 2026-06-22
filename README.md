@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![BongoCat](https://socialify.git.ci/ayangweb/BongoCat/image?custom_description=&description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fayangweb%2FBongoCat%2Fblob%2Fmaster%2Fsrc-tauri%2Fassets%2Flogo-mac.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)
 
 <div align="center">
@@ -149,3 +150,7 @@
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
  </picture>
 </a>
+=======
+# MeowToDo
+A smart AI-powered desk pet with integrated Todo management. Built on BongoCat, it combines an adorable desktop companion with AI-driven task decomposition, daily reports, and smart productivity tools — your cat now helps you get things done.
+>>>>>>> 964c116a01596a6937c16bf96670265da5ce392c
