@@ -1,0 +1,52 @@
+{
+  "utils": {
+    "live2d": {
+      "hints": {
+        "notFound": "找不到模型檔案"
+      }
+    }
+  },
+  "composables": {
+    "useAppMenu": {
+      "labels": {
+        "preference": "偏好設定",
+        "taskManager": "任務管理",
+        "createTask": "建立任務",
+        "todayTasks": "今日任務",
+        "historyTasks": "歷史任務",
+        "dailyReport": "日報中心",
+        "analytics": "資料統計",
+        "hideCat": "隱藏貓咪",
+        "showCat": "顯示貓咪",
+        "passThrough": "滑鼠穿透",
+        "windowSize": "視窗大小",
+        "opacity": "透明度",
+        "restartApp": "重新啟動",
+        "quitApp": "退出應用"
+      }
+    },
+    "useTray": {
+      "checkUpdate": "檢查更新",
+      "openSource": "開源地址"
+    }
+  },
+  "pages": {
+    "main": {
+      "hints": {
+        "redrawing": "重新繪製中...",
+        "switching": "切換中..."
+      },
+      "todo": {
+        "title": "任務管理",
+        "createTask": "新增任務",
+        "taskTitle": "任務標題",
+        "taskTitlePlaceholder": "請輸入任務標題",
+        "priority": "優先級",
+        "priorityLow": "低",
+        "priorityMedium": "中",
+        "priorityHigh": "高",
+        "confirm": "確認"
+      }
+    }
+  }
+}

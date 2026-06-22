@@ -1,0 +1,52 @@
+{
+  "utils": {
+    "live2d": {
+      "hints": {
+        "notFound": "Model file not found"
+      }
+    }
+  },
+  "composables": {
+    "useAppMenu": {
+      "labels": {
+        "preference": "Preferences",
+        "taskManager": "Task Manager",
+        "createTask": "Create Task",
+        "todayTasks": "Today's Tasks",
+        "historyTasks": "History Tasks",
+        "dailyReport": "Daily Report",
+        "analytics": "Analytics",
+        "hideCat": "Hide Cat",
+        "showCat": "Show Cat",
+        "passThrough": "Pass Through",
+        "windowSize": "Window Size",
+        "opacity": "Opacity",
+        "restartApp": "Restart App",
+        "quitApp": "Quit App"
+      }
+    },
+    "useTray": {
+      "checkUpdate": "Check Update",
+      "openSource": "Open Source"
+    }
+  },
+  "pages": {
+    "main": {
+      "hints": {
+        "redrawing": "Redrawing...",
+        "switching": "Switching..."
+      },
+      "todo": {
+        "title": "Task Management",
+        "createTask": "Create Task",
+        "taskTitle": "Task Title",
+        "taskTitlePlaceholder": "Please enter task title",
+        "priority": "Priority",
+        "priorityLow": "Low",
+        "priorityMedium": "Medium",
+        "priorityHigh": "High",
+        "confirm": "Confirm"
+      }
+    }
+  }
+}

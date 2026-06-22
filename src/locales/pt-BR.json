@@ -1,0 +1,52 @@
+{
+  "utils": {
+    "live2d": {
+      "hints": {
+        "notFound": "Arquivo de modelo não encontrado"
+      }
+    }
+  },
+  "composables": {
+    "useAppMenu": {
+      "labels": {
+        "preference": "Preferências",
+        "taskManager": "Gerenciador de Tarefas",
+        "createTask": "Criar Tarefa",
+        "todayTasks": "Tarefas de Hoje",
+        "historyTasks": "Histórico de Tarefas",
+        "dailyReport": "Relatório Diário",
+        "analytics": "Análises",
+        "hideCat": "Ocultar Gato",
+        "showCat": "Mostrar Gato",
+        "passThrough": "Atravessar",
+        "windowSize": "Tamanho da Janela",
+        "opacity": "Opacidade",
+        "restartApp": "Reiniciar",
+        "quitApp": "Sair"
+      }
+    },
+    "useTray": {
+      "checkUpdate": "Verificar Atualização",
+      "openSource": "Código Aberto"
+    }
+  },
+  "pages": {
+    "main": {
+      "hints": {
+        "redrawing": "Redesenhando...",
+        "switching": "Alternando..."
+      },
+      "todo": {
+        "title": "Gerenciamento de Tarefas",
+        "createTask": "Criar Tarefa",
+        "taskTitle": "Título da Tarefa",
+        "taskTitlePlaceholder": "Digite o título da tarefa",
+        "priority": "Prioridade",
+        "priorityLow": "Baixa",
+        "priorityMedium": "Média",
+        "priorityHigh": "Alta",
+        "confirm": "Confirmar"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "utils": {
+    "live2d": {
+      "hints": {
+        "notFound": "Không tìm thấy tệp mô hình"
+      }
+    }
+  },
+  "composables": {
+    "useAppMenu": {
+      "labels": {
+        "preference": "Cài đặt",
+        "taskManager": "Quản lý công việc",
+        "createTask": "Tạo công việc",
+        "todayTasks": "Công việc hôm nay",
+        "historyTasks": "Lịch sử công việc",
+        "dailyReport": "Báo cáo hàng ngày",
+        "analytics": "Thống kê",
+        "hideCat": "Ẩn mèo",
+        "showCat": "Hiện mèo",
+        "passThrough": "Xuyên chuột",
+        "windowSize": "Kích thước cửa sổ",
+        "opacity": "Độ mờ",
+        "restartApp": "Khởi động lại",
+        "quitApp": "Thoát"
+      }
+    },
+    "useTray": {
+      "checkUpdate": "Kiểm tra cập nhật",
+      "openSource": "Mã nguồn mở"
+    }
+  },
+  "pages": {
+    "main": {
+      "hints": {
+        "redrawing": "Đang vẽ lại...",
+        "switching": "Đang chuyển đổi..."
+      },
+      "todo": {
+        "title": "Quản lý công việc",
+        "createTask": "Tạo công việc",
+        "taskTitle": "Tiêu đề công việc",
+        "taskTitlePlaceholder": "Vui lòng nhập tiêu đề công việc",
+        "priority": "Ưu tiên",
+        "priorityLow": "Thấp",
+        "priorityMedium": "Trung bình",
+        "priorityHigh": "Cao",
+        "confirm": "Xác nhận"
+      }
+    }
+  }
+}
