@@ -1,8 +1,8 @@
-﻿# 🚀 MeowToDo — 基于 LLM 的拟人化桌面 AI 效率助手
+﻿# 🚀 MeowToDo — AI 驱动的桌面效率桌宠 — 任务拆解 · 情感陪伴 · 智能日报
 
 [//]: # "forked from ayangweb/BongoCat — added full AI task management suite"
 
-> 一款融合了"情感陪伴 + 智能全栈任务管理"的桌面宠物。通过 AI 能力彻底打通**【任务拆解 → 行为驱动 → 自动日报】**的生产力闭环。  
+> 一款融合了"情感陪伴 + 智能全栈任务管理"的桌面宠物。通过 AI 能力彻底打通【任务拆解 → 行为驱动 → 自动日报】的生产力闭环。  
 > 基于 [BongoCat](https://github.com/ayangweb/BongoCat) 桌宠框架二次开发，新增完整的 AI 任务管理与效率系统。
 
 ---
@@ -11,7 +11,7 @@
 
 | 🧠 AI 任务智能拆解 | 🦊 拟人化桌宠交互 | 📊 一键 AI 日报 |
 | :---: | :---: | :---: |
-| ![任务拆解动图](image/AI_task.gif) | ![桌宠动图](image/complete_task.gif) | ![日报动图](image/AI_dailyreport) |
+| ![任务拆解动图](image/AI_task.gif) | ![桌宠动图](image/complete_task.gif) | ![日报动图](image/AI_dailyreport.gif) |
 
 ---
 
@@ -51,9 +51,8 @@
 | **前端框架** | Vue 3 + TypeScript + Pinia 状态管理 |
 | **UI 组件** | Ant Design Vue Next + UnoCSS 原子化样式 |
 | **桌宠引擎** | Live2D + Pixi.js 8（easy-live2d） |
-| **AI 集成** | OpenAI API 兼容（支持 OpenAI / DeepSeek / Ollama） |
-| **数据存储** | SQLite（
-usqlite，本地离线，无云同步） |
+| **AI 集成** | OpenAI API 兼容（支持 OpenAI / DeepSeek / Gemini） |
+| **数据存储** | SQLite（sqlite，本地离线，无云同步） |
 | **跨平台** | macOS / Windows / Linux |
 | **开发模式** | Vibecoding（Prompt-Driven Development）— 借助 AI 编程助手快速原型构建与迭代 |
 
@@ -61,13 +60,8 @@ usqlite，本地离线，无云同步） |
 
 ## 🚀 快速开始
 
-### 直接使用
-
-从 [GitHub Releases](https://github.com/luelue-dot/MeowToDo/releases) 下载对应平台安装包即可。
-
 ### 本地开发
 
-`ash
 # 1. 安装依赖
 pnpm install
 
@@ -76,11 +70,11 @@ pnpm tauri dev
 
 # 3. 构建
 pnpm tauri build
-`
+
 
 ### AI 配置
 
-在设置页面配置 AI Provider（支持 OpenAI、DeepSeek、Ollama），填入 API Key 和 Base URL 即可使用任务拆解和日报生成功能。
+在设置页面配置 AI Provider（支持 OpenAI、DeepSeek、Gemini），填入 API Key 和 Base URL 即可使用任务拆解和日报生成功能。
 
 
 ---
