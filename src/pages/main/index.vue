@@ -151,7 +151,10 @@ function handleMouseMove(event) {
   catStore.window.scale = round(Math.max(25, Math.min(catStore.window.scale + (event.movementX + event.movementY) * 0.5, 500)))
 }
 
-onMounted(startListening)
+onMounted(async () => {
+  analyticsService.trackEvent('app_open').catch(() => {})
+  startListening()
+})
 onUnmounted(() => { handleDestroy(); clearInterval(refreshTimer) })
 
 watch(() => modelStore.currentModel, async (model) => {
@@ -228,3 +231,4 @@ useEventListener("resize", () => { resizing.value = true; debouncedResize() })
 .chevron { flex-shrink: 0; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid rgba(255,255,255,0.5); margin-left: 4px; }
 .priority-label { font-size: 10px; color: #fff; padding: 1px 6px; border-radius: 4px; font-weight: 600; flex-shrink: 0; }
 </style>
+

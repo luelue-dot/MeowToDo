@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+﻿import { resolve } from 'path'
 
 import Vue from '@vitejs/plugin-vue'
 import Unocss from 'unocss/vite'
@@ -9,6 +9,18 @@ const host = process.env.TAURI_DEV_HOST
 
 export default defineConfig(async () => ({
   plugins: [
+    {
+      name: "fix-multi-window-url",
+      configureServer(server) {
+        server.middlewares.use((req, _res, next) => {
+          if (req.url && req.url.startsWith("/index.html")) {
+            req.url = "/" + req.url.slice(11)
+          }
+          next()
+        })
+      },
+    },
+
     Vue(),
     Unocss(),
     dayjs(),
